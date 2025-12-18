@@ -34,4 +34,4 @@
 
 # dierector🎬
 ### Ahmed Elsayed
-### you can cotact with me by (gmail)[ahmedalsayed4721@gmail.com]​
+### you can cotact with me by [GMAIL](ahmedalsayed4721@gmail.com)​
