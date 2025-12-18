@@ -7,8 +7,8 @@ def mp3():
     try:
         url=Field.get()
         deic={
-            'fromat':'bestaudio',
-            'outtmpl':'Downloads%(title)s.%(ext)s',
+            'format':'bestaudio',
+            'outtmpl':'Downloads/%(title)s.%(ext)s',
         }
         with YoutubeDL(deic) as ydl:
             ydl.download([url])
@@ -22,8 +22,8 @@ def low():
     try:
         url=Field.get()
         deic={
-            'fromat':'best[height<=240]',
-            'outtmpl':"Downloads%(title)s.%(ext)s"
+            'format':'best[height<=240]',
+            'outtmpl':"Downloads/%(title)s.%(ext)s"
         }
         with YoutubeDL(deic) as ydl:
             ydl.download([url])
@@ -38,8 +38,8 @@ def mediam():
     try:
         url=Field.get()
         deic={
-            'fromat':'best[height<=480]',
-            'outtmpl':'Downloads%(title)s.%(ext)s'
+            'format':'best[height<=480]',
+            'outtmpl':'Downloads/%(title)s.%(ext)s'
         }     
         with YoutubeDL(deic) as ydl:
             ydl.download([url])
@@ -54,8 +54,8 @@ def high():
     try:
         url=Field.get()
         deic={
-            'fromat':'best[height<=720]',
-            'outtmpl':'Downloads%(title)s.%(ext)s'
+            'format':'best[height<=720]',
+            'outtmpl':'Downloads/%(title)s.%(ext)s'
         }
         with YoutubeDL(deic) as ydl:
             ydl.download([url])
@@ -92,8 +92,8 @@ low_quality=Button(window,text="low",font='bold',activeforeground='SteelBlue3',c
 low_quality.place(x=340,y=140)
 
 
-mp3=Button(window,text="mp3",font='bold',activeforeground='SteelBlue3',command=mp3)
-mp3.place(x=400,y=140)
+sound=Button(window,text="mp3",font='bold',activeforeground='SteelBlue3',command=mp3)
+sound.place(x=400,y=140)
 
 
 copy_right_label=Label(window,text="@all copy right reserved by Ahmed Elsayed",font=("arial",9),background=window['background'])
