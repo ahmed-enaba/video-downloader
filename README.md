@@ -1,4 +1,4 @@
-# Video downloader
+# Video downloader 📼​
 ## define✍
 ### this program can download videos from apps such as:
 - YouTube
@@ -9,4 +9,10 @@
 - Coursera
 - Udemy
 - ### with graphical user interface this is a simple app and not profisinal
-- this from student and not aimed to gain money from this project
+
+## 🚀 Features
+### download video from many websites not only youtube
+### easy to use with graphical user interface 🖥️
+### support download audio only 🔊 ​​
+### have many quality you can download from it 📡​
+### you can amendment by you self 🔧​
